@@ -3,7 +3,7 @@ layers:
   MAC_BASE: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, '`', Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
     Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, MAC_LOWER, RET, SPACE, MAC_RAISE, RCTRL, RALT, RGUI]
   MAC_LOWER:
-  - '&studio_unlock'
+  - UNLOCK
   - F1
   - F2
   - F3
@@ -53,7 +53,7 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - UNLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -65,8 +65,8 @@ layers:
   - {t: ▽, type: trans}
   MAC_RAISE:
   - BT CLR
-  - '&bt_mac'
-  - '&bt_nix'
+  - MAC
+  - LINUX
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
@@ -188,7 +188,7 @@ layers:
   NIX_BASE: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, '`', Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
     Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LCTRL, LALT, LGUI, NIX_LOWER, RET, SPACE, NIX_RAISE, RCTRL, RALT, RGUI]
   NIX_LOWER:
-  - '&studio_unlock'
+  - UNLOCK
   - F1
   - F2
   - F3
@@ -238,7 +238,7 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - UNLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -250,8 +250,8 @@ layers:
   - {t: ▽, type: trans}
   NIX_RAISE:
   - BT CLR
-  - '&bt_mac'
-  - '&bt_nix'
+  - MAC
+  - LINUX
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
