@@ -5,7 +5,15 @@ on:
     branches:
       - master
       - sofle_hybrid_rgb_rev5
+    paths-ignore:
+      - "**.md"
+      - "**.svg"
+      - "keymap-drawer/**"
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
