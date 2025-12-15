@@ -41,13 +41,12 @@ draw_config:
   glyph_shifted_size: 10
   glyphs: {}
 parse_config:
-  preprocess:
-    # Define substitution for macros
-    - ['&bt_mac', 'MAC']
-    - ['&bt_nix', 'LINUX']
-    - ['&studio_unlock', 'UNLOCK']
+  preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
+  raw_binding_map:
+    '&bt_mac': 'MAC'
+    '&bt_nix': 'LINUX'
+    '&studio_unlock': 'UNLOCK'
   zmk_combos: {}
   zmk_preamble: ''
   zmk_additional_includes: []
