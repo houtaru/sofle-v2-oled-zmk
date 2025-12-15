@@ -1,4 +1,21 @@
-on: [push, pull_request, workflow_dispatch]
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - "**.md"
+      - "**.svg"
+      - "keymap-drawer/**"
+      - ".github/workflows/keymap_drawer.yaml"
+  pull_request:
+    paths-ignore:
+      - "**.md"
+      - "**.svg"
+      - "keymap-drawer/**"
+      - ".github/workflows/keymap_drawer.yaml"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
