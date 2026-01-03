@@ -28,29 +28,29 @@ layers:
   - Sft+0
   - F12
   - CAPS
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - Sft+-
+  - '-'
+  - +
+  - '='
+  - Sft+'
   - ^
   - '&'
   - KP MULTIPLY
   - (
   - )
-  - '|'
+  - Sft+\
   - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+/
   - '{'
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
-  - ':'
+  - Sft+,
+  - Sft+.
   - \
   - {t: ▽, type: trans}
   - UNLOCK
@@ -81,7 +81,7 @@ layers:
   - PSCRN
   - CMENU
   - Gui+RIGHT
-  - {t: ▽, type: trans}
+  - Gui+T
   - PG UP
   - PAGE DOWN
   - HOME
@@ -111,7 +111,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+.
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
