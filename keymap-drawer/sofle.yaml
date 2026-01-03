@@ -27,28 +27,28 @@ layers:
   - Sft+9
   - Sft+0
   - F12
-  - CAPS
+  - '&caps_word'
   - Sft+-
   - '-'
   - +
   - '='
   - Sft+'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+;
   - Sft+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+/
   - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ']'
+  - '}'
   - Sft+,
   - Sft+.
   - \
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Ctl+Gui+4
   - {t: ▽, type: trans}
-  - '&caps_word'
+  - CAPS
   - LALT
   - LCTRL
   - LSHFT
@@ -212,30 +212,30 @@ layers:
   - Sft+9
   - Sft+0
   - F12
-  - CAPS
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
+  - '&caps_word'
+  - Sft+-
   - '-'
-  - KP PLUS
+  - +
+  - '='
+  - Sft+'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+;
+  - Sft+\
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+/
   - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ']'
-  - ;
-  - ':'
+  - '}'
+  - Sft+,
+  - Sft+.
   - \
   - {t: ▽, type: trans}
   - UNLOCK
@@ -273,7 +273,7 @@ layers:
   - {t: ▽, type: trans}
   - PSCRN
   - {t: ▽, type: trans}
-  - '&caps_word'
+  - CAPS
   - LALT
   - LGUI
   - LSHFT
