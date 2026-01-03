@@ -266,7 +266,7 @@ layers:
   - PSCRN
   - CMENU
   - Alt+RIGHT
-  - {t: ▽, type: trans}
+  - Ctl+T
   - PG UP
   - PAGE DOWN
   - HOME
@@ -296,7 +296,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+H
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
