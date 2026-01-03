@@ -207,9 +207,9 @@
             label = "NIX_RAISE";
             bindings = <
 &bt BT_CLR  &bt_mac       &bt_nix    &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                    &trans     &trans         &trans    &trans     &trans     &trans
-&trans      &kp INS       &kp PSCRN  &kp K_CMENU   &kp LA(RIGHT)  &trans                          &kp PG_UP  &kp PAGE_DOWN  &kp HOME  &trans     &kp PSCRN  &trans
+&trans      &kp INS       &kp PSCRN  &kp K_CMENU   &kp LA(RIGHT)  &kp LC(T)                       &kp PG_UP  &kp PAGE_DOWN  &kp HOME  &trans     &kp PSCRN  &trans
 &caps_word  &kp LALT      &kp LGUI   &kp LSHFT     &kp LC(SPACE)  &kp CLCK                        &kp LEFT   &kp DOWN       &kp UP    &kp RIGHT  &trans     &trans
-&trans      &kp LA(LEFT)  &kp LC(X)  &kp LC(C)     &kp LC(V)      &trans        &trans    &trans  &trans     &trans         &trans    &trans     &trans     &trans
+&trans      &kp LA(LEFT)  &kp LC(X)  &kp LC(C)     &kp LC(V)      &trans        &trans    &trans  &trans     &trans         &trans    &kp LC(H)  &trans     &trans
                           &trans     &trans        &trans         &trans        &trans    &trans  &trans     &trans         &trans    &trans
             >;
 
