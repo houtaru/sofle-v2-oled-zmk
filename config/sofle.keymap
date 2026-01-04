@@ -120,11 +120,11 @@
         mac_raise_layer {
             label = "MAC_RAISE";
             bindings = <
-&bt BT_CLR  &bt_mac       &bt_nix    &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                    &trans     &trans         &trans    &trans              &trans              &trans
-&trans      &kp INS       &kp PSCRN  &kp K_CMENU   &kp RG(RIGHT)  &kp RG(T)                       &kp PG_UP  &kp PAGE_DOWN  &kp HOME  &trans              &kp LS(LC(LG(N4)))  &trans
-&kp CAPS    &kp LALT      &kp LCTRL  &kp LSHFT     &kp RG(SPACE)  &kp CLCK                        &kp LEFT   &kp DOWN       &kp UP    &kp RIGHT           &trans              &trans
-&trans      &kp RG(LEFT)  &kp RG(X)  &kp RG(C)     &kp RG(V)      &trans        &trans    &trans  &trans     &trans         &trans    &kp LS(LG(PERIOD))  &trans              &trans
-                          &trans     &trans        &trans         &trans        &trans    &trans  &trans     &trans         &trans    &trans
+&bt BT_CLR  &bt_mac       &bt_nix    &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                           &trans     &trans         &trans    &trans              &trans              &trans
+&trans      &kp INS       &kp PSCRN  &kp K_CMENU   &kp RG(RIGHT)  &kp RG(T)                              &kp PG_UP  &kp PAGE_DOWN  &kp HOME  &trans              &kp LS(LC(LG(N4)))  &trans
+&kp CAPS    &kp RG(A)     &kp LCTRL  &kp LSHFT     &kp RG(SPACE)  &kp CLCK                               &kp LEFT   &kp DOWN       &kp UP    &kp RIGHT           &trans              &trans
+&trans      &kp RG(LEFT)  &kp RG(X)  &kp RG(C)     &kp RG(V)      &trans        &trans           &trans  &trans     &trans         &trans    &kp LS(LG(PERIOD))  &trans              &trans
+                          &trans     &trans        &trans         &trans        &kp RS(ENTER)    &trans  &trans     &trans         &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -206,11 +206,11 @@
         nix_raise_layer {
             label = "NIX_RAISE";
             bindings = <
-&bt BT_CLR  &bt_mac       &bt_nix    &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                    &trans     &trans         &trans    &trans     &trans     &trans
-&trans      &kp INS       &kp PSCRN  &kp K_CMENU   &kp LA(RIGHT)  &kp LC(T)                       &kp PG_UP  &kp PAGE_DOWN  &kp HOME  &trans     &kp PSCRN  &trans
-&kp CAPS    &kp LALT      &kp LGUI   &kp LSHFT     &kp LC(SPACE)  &kp CLCK                        &kp LEFT   &kp DOWN       &kp UP    &kp RIGHT  &trans     &trans
-&trans      &kp LA(LEFT)  &kp LC(X)  &kp LC(C)     &kp LC(V)      &trans        &trans    &trans  &trans     &trans         &trans    &kp LC(H)  &trans     &trans
-                          &trans     &trans        &trans         &trans        &trans    &trans  &trans     &trans         &trans    &trans
+&bt BT_CLR  &bt_mac       &bt_nix    &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                           &trans     &trans         &trans    &trans     &trans     &trans
+&trans      &kp INS       &kp PSCRN  &kp K_CMENU   &kp LA(RIGHT)  &kp LC(T)                              &kp PG_UP  &kp PAGE_DOWN  &kp HOME  &trans     &kp PSCRN  &trans
+&kp CAPS    &kp RC(A)     &kp LGUI   &kp LSHFT     &kp LC(SPACE)  &kp CLCK                               &kp LEFT   &kp DOWN       &kp UP    &kp RIGHT  &trans     &trans
+&trans      &kp LA(LEFT)  &kp LC(X)  &kp LC(C)     &kp LC(V)      &trans        &trans           &trans  &trans     &trans         &trans    &kp LC(H)  &trans     &trans
+                          &trans     &trans        &trans         &trans        &kp LS(ENTER)    &trans  &trans     &trans         &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
