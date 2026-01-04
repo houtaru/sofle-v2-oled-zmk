@@ -89,7 +89,7 @@ layers:
   - Sft+Ctl+Gui+4
   - {t: ▽, type: trans}
   - CAPS
-  - LALT
+  - Gui+A
   - LCTRL
   - LSHFT
   - Gui+SPACE
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ENTER
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -274,7 +274,7 @@ layers:
   - PSCRN
   - {t: ▽, type: trans}
   - CAPS
-  - LALT
+  - Ctl+A
   - LGUI
   - LSHFT
   - Ctl+SPACE
@@ -303,7 +303,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ENTER
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
